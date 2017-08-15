@@ -1,3 +1,30 @@
 What happens when you initialize a repository? Why do you need to do it?
 .git file is created when  a new repository is initialised. A repository
- creates snapshots of all my versions and hence I am oing that.
+creates snapshots of all my versions and hence I am oing that.
+
+How is the staging area different from the working directory and the 
+repository? What value do you think it offers?
+Staging area has the changes that are ready to be committed. It helps in 
+practicing one commit per logical change. 
+
+How can you use the staging area to make sure you have one commit per logical
+change?
+If a particular change need editing in two files then this is considered as one
+logical commit. So, instead of committing two changes these two commits an be
+staged and then committed as one change.
+
+What are some situations when branches would be helpful in keeping your history
+organized? How would branches help?
+If a new exp feature is being added or if changes are being made for one 
+specific customer then branches would help. 
+
+How do the diagrams help you visualize the branch structure?
+It helps me well.
+
+What is the result of merging two branches together? Why do we represent it in 
+the diagram the way we do?
+All the commits in branch and master will be in the master branch.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges
+manually?
+Not sure.
